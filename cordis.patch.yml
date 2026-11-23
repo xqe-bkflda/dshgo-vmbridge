@@ -1,4 +1,4 @@
 # id: any unique id; name: must equal "name" in package.json.
 - insert:
-    - id: local-vmbridge
-      name: local-vmbridge
+    - id: dshgo-vmbridge
+      name: dshgo-vmbridge
