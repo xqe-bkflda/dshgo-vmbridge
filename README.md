@@ -19,6 +19,10 @@
    └── 被 AI 操作的各种 App
 ```
 
+![Shot 在 AndVM 虚拟机里截出来的画面](screenshot.png)
+
+*<sub>上面这张就是插件通过 `vm_screenshot` 拿到的图：AndVM 里的 Android 12 抽屉页，720×1600</sub>*
+
 ---
 
 ## 前置条件（两个都必须有）
@@ -195,6 +199,7 @@ AI：vm_tap(id=2)           → 设置页打开，附带新屏幕
 ```
 dshgo-vmbridge/
 ├── README.md
+├── screenshot.png        # vm_screenshot 的实际输出（示例）
 ├── package.json          # dshGo 清单：面板 + 工具
 ├── cordis.patch.yml      # cordis 注入声明
 ├── Shot.apk              # 虚拟机截图 App（直接装）
