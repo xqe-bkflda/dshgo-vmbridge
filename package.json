@@ -1,7 +1,6 @@
 {
-  "name": "local-vmbridge",
+  "name": "dshgo-vmbridge",
   "version": "1.0.0",
-  "private": true,
   "type": "module",
   "main": "lib/index.js",
   "description": "DSH Go 手机端插件：通过 adb 操控 AndVM 里的 Android 虚拟机（屏幕/点击/输入/root shell/APK/截图）",
@@ -47,5 +46,17 @@
         }
       ]
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xqe-bkflda/dshgo-vmbridge.git"
+  },
+  "homepage": "https://github.com/xqe-bkflda/dshgo-vmbridge#readme",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "Shot.apk"
+  ]
 }
