@@ -1,0 +1,51 @@
+{
+  "name": "local-vmbridge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "description": "DSH Go 手机端插件：通过 adb 操控 AndVM 里的 Android 虚拟机（屏幕/点击/输入/root shell/APK/截图）",
+  "keywords": [
+    "dsh-go",
+    "dsh-plugin",
+    "android",
+    "andvm",
+    "adb",
+    "virtual-machine"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+  },
+  "dshGo": {
+    "v": 1,
+    "title": {
+      "zh": "虚拟机桥",
+      "en": "VM Bridge"
+    },
+    "icon": "computer",
+    "wants": [],
+    "contributes": {
+      "panels": [
+        {
+          "id": "vmbridge",
+          "title": {
+            "zh": "虚拟机桥",
+            "en": "VM Bridge"
+          },
+          "icon": "computer",
+          "placement": [
+            "session.tab",
+            "features",
+            "chat.panel"
+          ]
+        }
+      ]
+    }
+  }
+}
