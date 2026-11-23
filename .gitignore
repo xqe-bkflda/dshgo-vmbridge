@@ -1,0 +1,9 @@
+# 运行态
+.state.json
+node_modules/
+
+# 构建产物（重新编译见 app/build.sh）
+app/build-*/
+app/current
+app/sign.dat
+app/Shot.apk
