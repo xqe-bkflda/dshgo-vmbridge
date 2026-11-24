@@ -6,6 +6,13 @@
   <a href="README_EN.md">English</a> · <b>中文</b>
 </p>
 
+### **一行安装**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/xqe-bkflda/dshgo-vmbridge/main/install.sh | sh
+```
+
+
 <p align="center">
 [![Plugin](https://img.shields.io/badge/DSH--Go%20plugin-2A3B52?style=flat-square&logo=github&logoColor=white)](https://github.com/xqe-bkflda/dsh-go-market)
   [![License](https://img.shields.io/badge/license-MIT-3DDC84?style=flat-square)](LICENSE)
