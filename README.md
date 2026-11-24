@@ -1,3 +1,13 @@
+<div align="center">
+  <img src="assets/banner.png" alt="dshgo-vmbridge" width="100%">
+</div>
+
+<p align="center">
+[![Plugin](https://img.shields.io/badge/DSH--Go%20plugin-2A3B52?style=flat-square&logo=github&logoColor=white)](https://github.com/xqe-bkflda/dsh-go-market)
+  [![License](https://img.shields.io/badge/license-MIT-3DDC84?style=flat-square)](LICENSE)
+  [![Stars](https://img.shields.io/github/stars/xqe-bkflda/dshgo-vmbridge?style=flat-square&color=8FA5BA)](https://github.com/xqe-bkflda/dshgo-vmbridge/stargazers)
+</p>
+
 # dshgo-vmbridge
 
 **DSH 手机端插件** · 让 AI 直接操控 **AndVM** 里的 Android 虚拟机：看屏幕、点按钮、敲键盘、跑 root shell、装 APK、截图。
