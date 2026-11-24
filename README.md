@@ -2,6 +2,10 @@
   <img src="assets/banner.png" alt="dshgo-vmbridge" width="100%">
 </div>
 
+<p align="right">
+  <a href="README_EN.md">English</a> · <b>中文</b>
+</p>
+
 <p align="center">
 [![Plugin](https://img.shields.io/badge/DSH--Go%20plugin-2A3B52?style=flat-square&logo=github&logoColor=white)](https://github.com/xqe-bkflda/dsh-go-market)
   [![License](https://img.shields.io/badge/license-MIT-3DDC84?style=flat-square)](LICENSE)
